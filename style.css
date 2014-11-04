@@ -99,8 +99,6 @@ textarea {
 
 body {
   font-family: "museo-sans",Helvetica,"Helvetica Neue",Arial,sans-serif;
-  max-width: 30em;
-  margin: 0 auto;
   background-color: #d6d6d6;
   padding: 1em;
 }
@@ -111,6 +109,9 @@ img {
 }
 
 .persona {
+  max-width: 20em;
+  float: left;
+  margin: 1em;
   background-color: white;
   padding: 1em;
 }
@@ -132,8 +133,10 @@ img {
 .persona-quote:before {
   position: absolute;
   top: -2em;
-  left: 50%;
+  left: 9em;
   content: "";
+  width: 0;
+  height: 0;
   display: block;
   border-top: solid 1em transparent;
   border-right: solid 1em transparent;
@@ -142,7 +145,7 @@ img {
 }
 
 .persona-details {
-  border-top: 6px #d22b2b solid;
+  border-top: 1px dotted #c2c2c2;
 }
 
 /* http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/*/
