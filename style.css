@@ -109,16 +109,44 @@ img {
 }
 
 .persona {
-  max-width: 20em;
   float: left;
-  margin: 1em;
   background-color: white;
-  padding: 1em;
+  margin-bottom: 4em;
 }
+
+@media screen and (min-width: 40em) and (max-width: 60em)  {
+  .persona {
+    width: 45%;
+    margin-left: 10%;
+  }
+  .persona:nth-of-type(odd) {
+    margin-left: 0;
+    clear: left;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .persona {
+    width: 23%;
+    margin-left: 2%;
+  }
+  .persona:first-child {
+    margin-left: 0;
+  }
+}
+
 
 .persona-photo {
   text-align: center;
   margin: 0;
+}
+
+.persona-details {
+  padding: 1em;
+}
+
+.persona-name {
+  text-transform: uppercase;
 }
 
 .persona-quote {
@@ -133,7 +161,6 @@ img {
 .persona-quote:before {
   position: absolute;
   top: -2em;
-  left: 9em;
   content: "";
   width: 0;
   height: 0;
@@ -144,7 +171,7 @@ img {
   border-left: solid 1em transparent;
 }
 
-.persona-details {
+.persona-details-more {
   border-top: 1px dotted #c2c2c2;
 }
 
