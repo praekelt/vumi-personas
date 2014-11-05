@@ -175,6 +175,16 @@ img {
   border-top: 1px dotted #c2c2c2;
 }
 
+.credits {
+  border-top: 1px dotted #c2c2c2;
+  font-size: 0.8em;
+  text-align: right;
+}
+
+.credits a {
+  color: black;
+}
+
 /* http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/*/
 
 @-webkit-viewport {
