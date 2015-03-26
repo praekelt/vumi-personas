@@ -143,6 +143,7 @@ img {
 
 .persona-details {
   padding: 1em;
+  min-height: 11em;
 }
 
 .persona-name {
@@ -152,27 +153,36 @@ img {
 .persona-quote {
   background-color: #d22b2b;
   color: white;
-  font-weight: bold;
   font-size: 1.5em;
-  margin: 1em 0 0 0;
+  margin: 0;
   padding: 1em;
   position: relative;
 }
 
-.persona-quote:before {
+.persona-quote:before,
+.persona-quote:after {
+  font-size: 2em;
   position: absolute;
-  top: -2em;
-  content: "";
-  width: 0;
-  height: 0;
-  display: block;
-  border-top: solid 1em transparent;
-  border-right: solid 1em transparent;
-  border-bottom: solid 1em #d22b2b;
-  border-left: solid 1em transparent;
+  opacity: 0.5;
 }
 
+
+.persona-quote:before {
+    content: '“';
+    top:  -0.1em;
+    left: 0.1em;
+  }
+
+.persona-quote:after {
+    content: '”';
+    bottom: -0.8em;
+    right: 0.1em;
+  }
+
 .persona-details-more {
+  font-size: 1.25em;
+  padding-top: 2em;
+  margin-top: 2em;
   border-top: 1px dotted #c2c2c2;
 }
 
