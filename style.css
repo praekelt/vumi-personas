@@ -112,6 +112,7 @@ img {
   float: left;
   background-color: white;
   margin-bottom: 4em;
+  page-break-after: always;
 }
 
 @media screen and (min-width: 40em) and (max-width: 60em)  {
@@ -181,9 +182,8 @@ img {
 
 .persona-details-more {
   font-size: 1.25em;
-  padding-top: 2em;
-  margin-top: 2em;
-  border-top: 1px dotted #c2c2c2;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .credits {
@@ -369,6 +369,7 @@ html {
     }
 
     img {
+        width: auto;
         max-width: 100% !important;
     }
 
