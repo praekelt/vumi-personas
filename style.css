@@ -128,7 +128,7 @@ img {
 
 @media screen and (min-width: 60em) {
   .persona {
-    width: 23%;
+    width: 32%;
     margin-left: 2%;
   }
   .persona:first-child {
@@ -156,28 +156,28 @@ img {
   color: white;
   font-size: 1.5em;
   margin: 0;
-  padding: 1em;
+  padding: 2em;
   position: relative;
 }
 
 .persona-quote:before,
 .persona-quote:after {
-  font-size: 2em;
+  font-size: 3em;
   position: absolute;
   opacity: 0.5;
 }
 
 
 .persona-quote:before {
-    content: '“';
-    top:  -0.1em;
-    left: 0.1em;
+    content: '\201C';
+    top: 0;
+    left: 0.15em;
   }
 
 .persona-quote:after {
-    content: '”';
-    bottom: -0.8em;
-    right: 0.1em;
+    content: '\201D';
+    bottom: -0.5em;
+    right: 0.25em;
   }
 
 .persona-details-more {
