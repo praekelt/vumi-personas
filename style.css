@@ -128,7 +128,7 @@ img {
 
 @media screen and (min-width: 60em) {
   .persona {
-    width: 32%;
+    width: 31%;
     margin-left: 2%;
   }
   .persona:first-child {
@@ -136,6 +136,23 @@ img {
   }
 }
 
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  padding: 1em;
+  font-size: 1.5em;
+  background-color: #d22b2b;
+  color: #fff;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: normal;
+} 
 
 .persona-photo {
   text-align: center;
@@ -144,7 +161,6 @@ img {
 
 .persona-details {
   padding: 1em;
-  min-height: 11em;
 }
 
 .persona-name {
