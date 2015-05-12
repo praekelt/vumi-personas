@@ -117,8 +117,8 @@ img {
 
 @media screen and (min-width: 40em) and (max-width: 60em)  {
   .persona {
-    width: 45%;
-    margin-left: 10%;
+    width: 48%;
+    margin-left: 4%;
   }
   .persona:nth-of-type(odd) {
     margin-left: 0;
@@ -128,8 +128,8 @@ img {
 
 @media screen and (min-width: 60em) {
   .persona {
-    width: 31%;
-    margin-left: 2%;
+    width: 24%;
+    margin-left: 1%;
   }
   .persona:first-child {
     margin-left: 0;
@@ -144,8 +144,8 @@ h2 {
   margin: 0;
 }
 
-h3 {
-  padding: 1em;
+.persona-desc {
+  padding: 1em 0.5em;
   font-size: 1.5em;
   background-color: #d22b2b;
   color: #fff;
@@ -208,6 +208,11 @@ h3 {
 
 .credits a {
   color: black;
+}
+
+.persona-desc-alt,
+.persona-quote-alt {
+  background-color: #666;
 }
 
 /* http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/*/
