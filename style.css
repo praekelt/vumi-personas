@@ -215,6 +215,13 @@ h2 {
   background-color: #666;
 }
 
+.hats {
+  background-color: #eee;
+  text-align: center;
+  clear: both;
+  padding: 1em;
+}
+
 .hat {
   display: inline-block;
   margin-right: 3em;
