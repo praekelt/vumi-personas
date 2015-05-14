@@ -215,6 +215,65 @@ h2 {
   background-color: #666;
 }
 
+.hat {
+  display: inline-block;
+  margin-right: 3em;
+}
+
+.hat-billing {
+  color: #070;
+}
+
+.hat-strategy {
+  color: #009;
+}
+
+.hat-system-health {
+  color: #b00;
+}
+
+.hat-implementation {
+  color: #754016;
+}
+
+.hat-analysis {
+  color: #909;
+}
+
+.haticon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url(img/hats.png);
+  background-repeat: no-repeat;
+}
+
+.haticon-billing {
+  background-position: 0 0;
+}
+
+.haticon-strategy {
+  background-position: -40px 0;
+}
+
+.haticon-system-health {
+  background-position: -80px 0;
+}
+
+.haticon-implementation {
+  background-position: -120px 0;
+}
+
+.haticon-analysis {
+  background-position: -160px 0;
+}
+
+.hat-label {
+  position: relative;
+  top: -0.75em;
+  margin-left: 0.5em;
+}
+
 /* http://timkadlec.com/2012/10/ie10-snap-mode-and-responsive-design/*/
 
 @-webkit-viewport {
