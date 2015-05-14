@@ -216,15 +216,10 @@ h2 {
 }
 
 .hats {
-  background-color: #eee;
-  text-align: center;
-  clear: both;
-  padding: 1em;
-}
-
-.hat {
-  display: inline-block;
-  margin-right: 3em;
+  padding: 2em 1em 0 1em;
+  margin: 0;
+  list-style: none;
+  font-size: 1.25em;
 }
 
 .hat-billing {
@@ -277,7 +272,7 @@ h2 {
 
 .hat-label {
   position: relative;
-  top: -0.75em;
+  top: -0.5em;
   margin-left: 0.5em;
 }
 
