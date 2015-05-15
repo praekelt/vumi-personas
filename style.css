@@ -145,7 +145,7 @@ img {
 }
 
 h1 {
-  margin-bottom: 0;
+  margin: 0;
 }
 
 h2 {
@@ -170,6 +170,8 @@ h2 {
 
 .persona-name {
   text-transform: uppercase;
+  font-size: 3em;
+
 }
 
 .persona-quote {
@@ -177,7 +179,7 @@ h2 {
   color: white;
   font-size: 1.5em;
   margin: 0;
-  padding: 2em;
+  padding: 1em 2em;
   position: relative;
 }
 
@@ -203,6 +205,15 @@ h2 {
 
 .persona-details-more {
   font-size: 1.25em;
+  padding: 1em;
+}
+
+.persona-details-more p {
+  margin-top: 0;
+}
+
+.persona-details-more p:last-child {
+  margin-bottom: 0;
 }
 
 .credits {
@@ -225,7 +236,7 @@ h2 {
 
 .hats {
   background-color: #e6e6e6;
-  padding: 2em 1em;
+  padding: 1em;
   margin: 0;
   list-style: none;
   font-size: 1.25em;
