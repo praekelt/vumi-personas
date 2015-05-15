@@ -115,24 +115,32 @@ img {
   page-break-after: always;
 }
 
-@media screen and (min-width: 40em) and (max-width: 60em)  {
+@media screen and (min-width: 60em) {
   .persona {
     width: 48%;
     margin-left: 4%;
   }
+
   .persona:nth-of-type(odd) {
     margin-left: 0;
     clear: left;
   }
-}
 
-@media screen and (min-width: 60em) {
-  .persona {
-    width: 24%;
-    margin-left: 1%;
+  .persona-details-main {
+    float: left;
+    clear: left;
+    width: 50%;
+    padding-top: 2em;
   }
-  .persona:first-child {
-    margin-left: 0;
+
+  .persona-photo {
+    float: right;
+    width: 50%;
+  }
+
+  .persona-quote,
+  .hats {
+    clear: both;
   }
 }
 
@@ -147,11 +155,8 @@ h2 {
 .persona-desc {
   padding: 1em 0.5em;
   font-size: 1.5em;
-  background-color: #d22b2b;
-  color: #fff;
-  margin-bottom: 0;
-  text-align: center;
-  font-weight: normal;
+  color: #d22b2b;
+  margin: 0;
 } 
 
 .persona-photo {
@@ -210,16 +215,26 @@ h2 {
   color: black;
 }
 
-.persona-desc-alt,
+.persona-desc-alt {
+  color: #666;
+}
+
 .persona-quote-alt {
   background-color: #666;
 }
 
 .hats {
-  padding: 2em 1em 0 1em;
+  background-color: #e6e6e6;
+  padding: 2em 1em;
   margin: 0;
   list-style: none;
   font-size: 1.25em;
+  text-align: center;
+}
+
+.hat {
+  display: inline-block;
+  margin: 0 1em;
 }
 
 .hat-billing {
